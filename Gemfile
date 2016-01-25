@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+#
+source "https://rubygems.org"
 
 gem 'nokogiri', '1.6.1'
 gem 'cucumber'
@@ -7,7 +8,5 @@ gem 'selenium-webdriver'
 gem 'watir-webdriver'
 gem 'rake'
 gem 'rubocop'
-gem 'pry', require: 'pry'
+gem 'pry'
 
-# gem to connect to saucelabs and also dynamically change browser parameters
-gem 'saucelabs'

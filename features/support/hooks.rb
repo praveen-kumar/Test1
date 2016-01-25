@@ -1,6 +1,6 @@
 #
 ENV['BROWSER'] ||= 'firefox'
-BROWSER_WIDTH = 1024
+BROWSER_WIDTH = 1400
 BROWSER_HEIGHT = 768
 
 Before do
@@ -12,7 +12,6 @@ Before do
              end
   @browser.driver.manage.window.move_to(0, 0)
   @browser.driver.manage.window.resize_to(BROWSER_WIDTH, BROWSER_HEIGHT)
-  puts @browser.name
 end
 
 After do |scenario|
