@@ -1,5 +1,4 @@
 #
-require 'pry'
 Given(/^I am on "([^"]*)"$/) do |url|
   @meme = HomePage.new(@browser)
   @meme.visit_page
@@ -34,8 +33,7 @@ end
 
 And(/^the Image HTML value is a syntactical valid HTML$/) do
   @template = Memelightbox.new(@browser)
-  a = @template.get_image_html
-  binding.pry
+  expect(@template.get_image_html).to include("a href").or include("img src")
 end
 
 Then(/^on the image page the title matches the meme template title$/) do
