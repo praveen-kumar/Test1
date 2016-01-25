@@ -1,3 +1,4 @@
+# contains all the elements present on the lightbox
 class Memelightbox
 
   def initialize(browser)
