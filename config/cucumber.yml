@@ -1,0 +1,8 @@
+default: --no-source --color --format pretty
+
+# report formats
+html_report: --format pretty --format html --out=reports/feature_report.html
+
+# browser
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
