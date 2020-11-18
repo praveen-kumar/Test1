@@ -1,7 +1,7 @@
 #
 source "https://rubygems.org"
 
-gem 'nokogiri', '1.6.1'
+gem 'nokogiri', '1.10.8'
 gem 'cucumber'
 gem 'rspec'
 gem 'selenium-webdriver'
