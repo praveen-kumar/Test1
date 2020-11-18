@@ -1,4 +1,4 @@
-# Create Meme #
+Create a meme using https://imgflip.com/
 --------------------------
 ## Getting Started
 
@@ -6,7 +6,7 @@ Pre-requisites which are needed to install in order to get the scenarios up and 
 
 ## Setup Ruby
 
-Dynamic scripting language used for build scripts and automation testing. Install at least version `2.1.2p95`
+Dynamic scripting language used for build scripts and automation testing. Install at least version `ruby 2.7.1p83`
 
 we can install Ruby with the help of Homebrew
 
@@ -20,21 +20,7 @@ we can install Ruby with the help of Homebrew
 
 3.Install Ruby:
 
-brew install ruby`
-
-
-## Install Java
-
-JDK7 can be installed directly from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-
-## Clone the repository
-
-```
-git@github.com:praveen-kumar/nutmeg.git
-```
-
-Then open project `nutmeg` using your favourite IDE
-
+`brew install ruby`
 
 ## Install bundler
 
