@@ -49,11 +49,11 @@ GEM
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
     middleware (0.1.0)
-    mini_portile (0.5.3)
+    mini_portile2 (2.4.0)
     minitest (5.14.2)
     multi_test (0.1.2)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     parallel (1.20.0)
     parser (2.7.2.0)
       ast (~> 2.4.1)
@@ -115,7 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
-  nokogiri (= 1.6.1)
+  nokogiri (= 1.10.8)
   pry
   rake
   rspec
